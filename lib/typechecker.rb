@@ -21,7 +21,7 @@ module TypeChecker
       
       if method.arity != @@expect.size
         @@expect = nil
-        raise Err::Inconsistent.new(self), "Declaration is inconsistent with implementation"
+        raise Err::Inconsistent.new(self), "The implementation is inconsistent with the declaration"
       end
       
       if @@poly_definition[name].find{ |definition|
@@ -79,7 +79,7 @@ module TypeChecker
       @@poly_definition[name.to_sym]&.map(&:inspect) || []
     end
     
-    def static_methods
+    def typed_methods
       @@poly_definition.keys
     end
   end

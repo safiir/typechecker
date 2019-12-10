@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "typechecker/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "TypeChecker"
+  spec.name          = "typechecker"
   spec.version       = TypeChecker::VERSION
   spec.authors       = ["safiir"]
   spec.email         = ["809320935@qq.com"]
