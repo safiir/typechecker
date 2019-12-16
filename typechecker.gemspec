@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{type checking}
   spec.description   = %q{for dynamic type-checking of the method parameters.}
-  spec.homepage      = "https://github.com/safiir/TypeChecker"
+  spec.homepage      = "https://github.com/safiir/typechecker"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

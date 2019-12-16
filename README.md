@@ -1,6 +1,6 @@
 # TypeChecker
 
-A gem for supporting dynamic type-checking of the method input parameters.
+A gem for supporting the dynamic type-checking of the method input parameters.
 
 ## Installation
 
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 Or install it locally as:
 
-    $ gem install typechecker -l
+    $ gem install typechecker-VERSION.gem -l
 
 ## Usage
 ```ruby

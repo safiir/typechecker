@@ -66,7 +66,7 @@ module TypeChecker
     def self.sig(*expect)
       if signature_declared?
         @@expect = nil
-        raise Err::DuplicateSignature.new(self), "DuplicateSignature"
+        raise Err::DuplicateSignature.new(self), "Duplicate signature"
       end
       @@expect = expect
     end
