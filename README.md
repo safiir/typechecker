@@ -1,6 +1,6 @@
 # TypeChecker
 
-A gem for supporting the dynamic type-checking of the method input parameters.
+A tiny runtime type checker for ruby
 
 ## Installation
 
